@@ -1,0 +1,21 @@
+body {
+    color:rgb(0, 0, 0);
+    font-family: "Arial", sans-serif;
+    text-align: center;
+  }
+
+.header{
+    padding: 20px;
+    background-color: black;
+    background-size: cover;             
+    background-position: center;
+    margin: 0px;
+  }
+
+#logo{
+    width: 35%;
+    height: 35%;
+    margin: 0 auto;
+    display: block;
+    color: white;
+}
