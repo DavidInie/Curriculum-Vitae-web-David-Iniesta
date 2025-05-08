@@ -14,13 +14,13 @@ body {
   }
 
 #logo{
-    width: 25%;
-    height: 25%;
+    width: 40px; /* Ajusta el ancho del logo */
+    height: auto; /* Mantén la proporción */
     margin: 0 auto;
     display: block;
     color: white;
     margin-left: -10px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #logoo{
@@ -36,21 +36,43 @@ body {
 .header2{
   padding: 20px;
   background:rgba(0, 0, 0, 0.3);
-  background-image: url(/img/white-low-poly-background-338.jpg);
+  background-image: url(../img/white-low-poly-background-338.jpg);
   background-size: cover;             
   background-position: center;
   margin-top: 0px;
   font-family: "Rethink Sans";
   color: rgb(0, 0, 0);
   text-align: justify;
+  
 }
 #qui{
   text-align: center; 
   font-family: "Winky Rough";
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
-  0 0 10px rgba(255, 255, 255, 0.6), 
-  0 0 15px rgba(255, 255, 255, 0.4);
-  
+  text-shadow: 0 0 5px rgba(112, 255, 248, 0.8), 
+  0 0 10px rgba(0, 93, 200, 0.6), 
+  0 0 15px rgba(0, 0, 116, 0.4);
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;  
+}
+
+#di{
+  border-radius: 15px; /* Ajusta el valor para redondear más o menos */
+  overflow: hidden; /* Asegura que el contenido no se salga de los bordes redondeados */
+  margin-left: 90px;
+  width: 72%;
+  box-shadow: 0 0 15px rgba(112, 255, 248, 0.8), /* Luz blanca */
+                0 0 30px rgba(0, 93, 200, 0.6), /* Luz azul */
+                0 0 45px rgba(0, 0, 116, 0.4); /* Luz más intensa */
+  margin-bottom: 50px;
+
+
+}
+
+#texto{
+  font-size: 20px;
+  margin-top: 7px;
+  margin-right: 15px;
 
 }
 
@@ -60,6 +82,9 @@ body {
   height: auto; /* Mantén la proporción */
   margin-left: auto; /* Centra horizontalmente */
   margin-right: auto; /* Centra horizontalmente */
+  box-shadow: 0 0 15px rgba(112, 255, 248, 0.8), /* Luz blanca */
+                0 0 30px rgba(0, 93, 200, 0.6), /* Luz azul */
+                0 0 45px rgba(0, 0, 116, 0.4); /* Luz más intensa */
  
 }
 
@@ -67,4 +92,75 @@ body {
     .ratio {
         max-width: 100%; /* Ocupa todo el ancho en móviles */
     }
+}
+
+.header2estudis{
+  padding: 20px;
+  background:rgba(255, 197, 82, 0.3);
+  background-size: cover;             
+  background-position: center;
+  margin-top: 0px;
+  font-family: "Rethink Sans";
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  
+}
+#esco{
+  text-align: center; 
+  font-family: "Akaya Kanadaka";
+  text-shadow: 0 0 5px rgba(255, 222, 114, 0.8), 
+  0 0 10px rgba(236, 197, 100, 0.6), 
+  0 0 15px rgba(198, 94, 3, 0.4);
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  margin-top: 20px; 
+  margin-bottom: 10px;   
+}
+
+#monte{
+  width: 70%;
+  margin-bottom: 50px;
+  box-shadow: 0 0 15px rgba(187, 124, 76, 0.8), /* Luz blanca */
+                0 0 30px rgba(155, 108, 62, 0.6), /* Luz azul */
+                0 0 45px rgba(85, 66, 39, 0.4); /* Luz más intensa */
+  border-radius: 90%; /* Hace que la imagen sea completamente circular */
+  object-fit: cover; /* Asegura que la imagen se ajuste al contenedor circular */
+  margin-top: 25px;
+  
+}
+
+#joan{
+  width:70%;
+  margin-top: 155px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 15px rgba(112, 255, 248, 0.8), /* Luz blanca */
+                0 0 30px rgba(0, 93, 200, 0.6), /* Luz azul */
+                0 0 45px rgba(0, 0, 116, 0.4); /* Luz más intensa */
+ 
+  
+}
+
+#mapa1{
+  width: 80%;
+  height: 80%;
+  margin-top: 30px;
+  border-radius: 15px; /* Ajusta el valor para redondear más o menos */
+  overflow: hidden; /* Asegura que el contenido no se salga de los bordes redondeados */
+ 
+}
+
+#mapa2{
+  width: 80%;
+  height: 90%;
+  margin-top: 100px;
+  border-radius: 15px; /* Ajusta el valor para redondear más o menos */
+  overflow: hidden; /* Asegura que el contenido no se salga de los bordes redondeados */
+  margin-bottom: 180px;
+   
+}
+#texto2{
+  font-size: 20px;
+  margin-top: 18px;
+  margin-right: 15px;
+
 }
