@@ -5,17 +5,46 @@ body {
   }
 
 .header{
-    padding: 20px;
-    background-color: black;
-    background-size: cover;             
-    background-position: center;
-    margin: 0px;
+  padding: 10px; /* Reduce el padding */
+  height: 75px; /* O establece una altura fija */
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+    
   }
 
 #logo{
-    width: 35%;
-    height: 35%;
+    width: 25%;
+    height: 25%;
     margin: 0 auto;
     display: block;
     color: white;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+#logoo{
+  margin: 0 auto;
+  display: block;
+  color: white;
+  margin-top: -5px;
+  margin-right: 10px; 
+  width: 35px; /* Ajusta el tamaño de los logos */
+  height: auto; /* Mantén la proporción */
+}
+
+.header2{
+  padding: 20px;
+  background:rgba(0, 0, 0, 0.3);
+  background-image: url(/img/white-low-poly-background-338.jpg);
+  background-size: cover;             
+  background-position: center;
+  margin-top: 0px;
+  font-family: "Rethink Sans";
+  color: rgb(0, 0, 0);
+  text-align: justify;
+}
+#qui{
+  text-align: center; 
+
 }
