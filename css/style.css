@@ -48,7 +48,7 @@ body {
 #qui{
   text-align: center; 
   font-family: "Winky Rough";
-  text-shadow: 0 0 5px rgba(112, 255, 248, 0.8), 
+  text-shadow: 0 0 5px rgba(1, 107, 102, 0.8), 
   0 0 10px rgba(0, 93, 200, 0.6), 
   0 0 15px rgba(0, 0, 116, 0.4);
   font-size: 50px;
@@ -96,15 +96,15 @@ body {
 
 .header2estudis{
   padding: 20px;
-  background:rgba(255, 197, 82, 0.3);
+  background:rgba(130, 253, 255, 0.3);
   background-size: cover;             
   background-position: center;
   margin-top: 0px;
   font-family: "Rethink Sans";
   color: rgb(0, 0, 0);
   text-align: justify;
-  
 }
+
 #esco{
   text-align: center; 
   font-family: "Akaya Kanadaka";
@@ -118,21 +118,23 @@ body {
 }
 
 #monte{
-  width: 70%;
+  width: 55%;
   margin-bottom: 50px;
   box-shadow: 0 0 15px rgba(187, 124, 76, 0.8), /* Luz blanca */
                 0 0 30px rgba(155, 108, 62, 0.6), /* Luz azul */
                 0 0 45px rgba(85, 66, 39, 0.4); /* Luz más intensa */
   border-radius: 90%; /* Hace que la imagen sea completamente circular */
   object-fit: cover; /* Asegura que la imagen se ajuste al contenedor circular */
-  margin-top: 25px;
+  margin-top: 45px;
+  margin-left: 150px;
   
 }
 
 #joan{
   width:70%;
-  margin-top: 155px;
+  margin-top: 0px;
   margin-bottom: 50px;
+  margin-left: 50px;
   box-shadow: 0 0 15px rgba(112, 255, 248, 0.8), /* Luz blanca */
                 0 0 30px rgba(0, 93, 200, 0.6), /* Luz azul */
                 0 0 45px rgba(0, 0, 116, 0.4); /* Luz más intensa */
@@ -141,21 +143,33 @@ body {
 }
 
 #mapa1{
-  width: 80%;
-  height: 80%;
-  margin-top: 30px;
+  width: 50%;
+  height: 100%;
+  margin-top: -2px;
   border-radius: 15px; /* Ajusta el valor para redondear más o menos */
   overflow: hidden; /* Asegura que el contenido no se salga de los bordes redondeados */
+  margin-left: 300px;
+  margin-bottom: 250px;
+  text-align: center;
+   box-shadow: 0 0 15px rgba(0, 42, 133, 0.8), /* Luz blanca */
+                0 0 30px rgba(0, 93, 200, 0.6), /* Luz azul */
+                0 0 45px rgba(0, 0, 116, 0.4); /* Luz más intensa */
+  
  
 }
 
 #mapa2{
-  width: 80%;
-  height: 90%;
-  margin-top: 100px;
+  width: 70%;
+  height: 50%;
+  /* margin-top: 1px; */
   border-radius: 15px; /* Ajusta el valor para redondear más o menos */
   overflow: hidden; /* Asegura que el contenido no se salga de los bordes redondeados */
-  margin-bottom: 180px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+   box-shadow: 0 0 15px rgba(0, 46, 146, 0.8), /* Luz blanca */
+                0 0 30px rgba(0, 93, 200, 0.6), /* Luz azul */
+                0 0 45px rgba(0, 0, 116, 0.4); /* Luz más intensa */
+  
    
 }
 #texto2{
@@ -201,8 +215,34 @@ body {
 }
 
 #texeco{
-  font-size: 17px;
+  font-size: 20px;
   max-width: 800px;
   margin-left: 20%;
 
 }
+
+.header2smx{
+  padding: 20px;
+  background:rgba(12, 121, 222, 0.3);
+  background-size: cover;             
+  background-position: center;
+  margin-top: 0px;
+  font-family: "Rethink Sans";
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  
+}
+
+.footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#footer{
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+ 
+}
+
