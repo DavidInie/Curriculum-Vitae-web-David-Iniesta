@@ -164,3 +164,45 @@ body {
   margin-right: 15px;
 
 }
+
+.header2expe{
+  padding: 20px;
+  background:rgba(255, 197, 82, 0.3);
+  background-size: cover;             
+  background-position: center;
+  margin-top: 0px;
+  font-family: "Rethink Sans";
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  
+  
+}
+
+#ara {
+    width: 80%;
+    margin-bottom: 0%;
+    box-shadow: 0 0 15px rgba(255, 118, 118, 0.8), /* Luz amarilla */
+                0 0 30px rgba(171, 64, 64, 0.6), /* Luz más suave */
+                0 0 45px rgba(73, 19, 19, 0.4); /* Luz más difusa */
+    border-radius: 5%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen al contenedor circular */
+    margin-top: 10px;
+}
+
+#bala {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    box-shadow: 0 0 15px rgba(195, 255, 110, 0.8), /* Luz amarilla */
+                0 0 30px rgba(106, 178, 67, 0.6), /* Luz más suave */
+                0 0 45px rgba(50, 102, 20, 0.4); /* Luz más difusa */
+    border-radius: 8%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen al contenedor circular */
+}
+
+#texeco{
+  font-size: 17px;
+  max-width: 800px;
+  margin-left: 20%;
+
+}
